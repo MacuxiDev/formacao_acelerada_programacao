@@ -1,0 +1,13 @@
+from enum import Enum
+
+class Curso(Enum):
+    ARQUITETURA = 450.00
+    CIENCIADACOMPUTACAO = 650.00
+    ENGENHARIA = 850.00
+    BIOMEDICINA = 750.00
+
+class LinhaPesquisa(Enum):
+    CIENCIA_EXATAS = 1200.00
+    CIENCIA_HUMANAS = 1600.00
+    EDUCACAO = 2000.00
+    INOVACAO_TECNOLOGICA = 3400.00
